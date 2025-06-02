@@ -1,0 +1,29 @@
+header {
+  top: 0;
+  position: sticky;
+  width: 100vw;
+  background-color: rgba(221, 201, 201, 0.7);
+  backdrop-filter: blur(10px);
+
+  nav {
+    padding: 2rem;
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0;
+      padding: 0;
+
+      a {
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgb(18, 16, 16);
+      }
+
+      .active {
+        border-bottom: 3px solid #7c374c;
+      }
+    }
+  }
+}
